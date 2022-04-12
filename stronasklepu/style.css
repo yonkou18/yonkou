@@ -1,0 +1,693 @@
+
+
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.header {
+    background-color: #F7F7F7;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.naglowek {
+    width: calc( 100% / 3); 
+	height: 6vh;
+	text-align: center;
+	font-size: 3vh;
+	overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.strona {
+  height: 100%;
+  border: none;
+  color:black;
+  background-color: white;
+  font-size: 20px;
+}
+
+.strona:hover {
+ background-color: white;
+}
+.nas:hover {
+  background-color: white;
+ }
+ .kontakt:hover {
+  background-color: white;
+ }
+ .koszyk:hover {
+  background-color: white;
+ }
+
+.formularz {
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.koszyk {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    height: 100%;
+}
+.kontakt {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    display: flex;
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+
+}
+.szukaj {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  height: 10vh;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+
+}
+button:hover{
+  background-color: green;
+}
+.dropdown-content {
+ 
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+ 
+ 
+}
+
+.dropdown-content a{
+ 
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: orange;}
+
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.nas {
+  color: black;
+  text-decoration: none;
+  width: 50%;
+  background-color: white;
+  border: none;
+  height: 100%;
+  font-size: 20px;
+}
+.strona {
+  color: black;
+  text-decoration: none;
+  width: 50%;
+}
+.menu {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+
+
+}
+   .przyciski {
+    width: calc( 100% / 7); /*33.33333333333%;*/
+	height: 5vh;
+	font-size: 20px;
+	overflow: hidden;
+    background-color:orange;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+.wyszukiwarka{
+    
+    height: 10vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.container-nas{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-nas-1{
+  width: 75%;
+  height: 600px;
+  box-shadow: 0 5px 10px rgba(21, 56, 255, 0.30);
+  align-items: center;
+  padding: 20px;
+}
+footer{
+  height: 200px;
+}
+.container-nas-1 h1 {
+  text-align: center;
+}
+  
+.glowna {
+    height: 600px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+    .rzecz {
+      height: 250px;
+      width: 100%;
+    }
+    .textoferta {
+height: 100px;
+width: 100%;
+text-decoration: none;
+list-style-type: none;
+    }
+
+    .textoferta li {
+ height: 25px;
+ 
+    }
+    
+    .oferta {
+      border-radius: 15px;
+        margin:50px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+       
+    
+    }
+    .oferta-1 {
+      height: 500px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-width: 280px;
+    }
+   
+    .oferta-2 {
+      height: 500px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-width: 280px;
+    }
+    .oferta-3 {
+        height: 500px;
+        width: 25%;
+        min-width: 280px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+   
+
+.oferta-4 {
+  height: 500px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+ 
+}
+.oferta-5 {
+  height: 500px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+    
+}
+.oferta-6 {
+  height: 500px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+    
+}
+
+.logo-1 {
+ width: 20%;
+  background-color: black;
+  border-radius: 25px;
+  color:white;
+ 
+}
+.logowanie {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  width: 40%;
+  height: 10vh;
+}
+.przyciski:hover{
+    background-color: rgb(223, 223, 223);
+    text-decoration: none;
+   box-shadow:0 2px 5px 0 rgba(0, 0, 0, .1);
+}
+
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+width: 20%;
+    text-decoration: none;
+    color:white;
+    height: 50px;
+    
+}
+
+
+
+    .glowna1{
+    height: 600pxx;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .stopka{
+        height: 400px;    
+        background-color: black;
+        
+        
+      
+        }
+
+
+  
+    .komputery {
+      width: 100%;
+      height: 100%;
+    }
+        
+        .container{
+            max-width: 700px;
+            width: 100%;
+            background-color: #fff;
+            padding: 25px 30px;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+          }
+          .container .title{
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+          }
+        .title {
+            border-bottom:3px solid orange;
+            width: 32.7%;
+        }
+          .content form .user-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+          }
+          form .user-details .input-box{
+            margin-bottom: 15px;
+            width: calc(100% / 2 - 20px);
+          }
+          form .input-box span.details{
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+          }
+          .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            font-size: 16px;
+            border-radius: 5px;
+            padding-left: 15px;
+            border: 1px solid #ccc;
+            border-bottom-width: 2px;
+            transition: all 0.3s ease;
+          }
+
+          textarea {
+            border: 1px solid #ccc;
+            transition: all 0.3s ease;
+            outline: none;
+            width: 210%;
+            height: 100%;
+            font-size:16px;
+            padding-left: 15px;
+            border-bottom-width:2px;
+            }
+          .user-details .input-box input:focus,
+          .user-details .input-box input:valid{
+            border-color: #9b59b6;
+          }
+           form .gender-details .gender-title{
+            font-size: 20px;
+            font-weight: 500;
+           }
+           form .category{
+             display: flex;
+             width: 80%;
+             margin: 14px 0 ;
+             justify-content: space-between;
+           }
+           form .category label{
+             display: flex;
+             align-items: center;
+             cursor: pointer;
+           }
+          
+           form input[type="radio"]{
+             display: none;
+           }
+           form .button{
+             height: 45px;
+             margin: 35px 0
+           }
+           form .button input{
+             height: 100%;
+             width: 100%;
+             border-radius: 5px;
+             border: none;
+             color: #fff;
+             font-size: 18px;
+             font-weight: 500;
+             letter-spacing: 1px;
+             cursor: pointer;
+             transition: all 0.3s ease;
+             background: orange;
+           }
+           form .button input:hover{
+            /* transform: scale(0.99); */
+            background: linear-gradient(-135deg, orange);
+            }
+           @media(max-width: 584px){
+           .container{
+            max-width: 100%;
+          }
+          form .user-details .input-box{
+              margin-bottom: 15px;
+              width: 100%;
+            }
+            form .category{
+              width: 100%;
+            }
+            .content form .user-details{
+              max-height: 300px;
+              overflow-y: scroll;
+            }
+            .user-details::-webkit-scrollbar{
+              width: 5px;
+            }
+            }
+            @media(max-width: 459px){
+            .container .content .category{
+              flex-direction: column;
+            }
+          }
+
+          .wizytowki {
+            height: 550px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+           
+          
+          }
+
+          .wizytowka-1 {
+            height: 200px;
+            width: 350px;
+            background-color: orange;
+            margin:25px;
+            margin-left: 30%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            text-align: left;
+            align-items: center;
+        
+          }
+          .wizytowka-left {
+            height: 100px;
+            border-right: solid black 1px;
+            width: 40%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-size: 19px;
+            color:white;
+            font-family: Suez One;
+          }
+          .wizytowka-right {
+            height: 100px;
+            
+            width: 55%;
+      
+            color:white;
+            font-family: Suez One;
+          }
+
+          .wizytowka-2 {
+            height: 200px;
+            width: 300px;
+            background-color: red;
+            margin:25px;
+            margin-left: 30%;
+        
+          }
+          .wizytowka-3 {
+            height: 200px;
+            width: 300px;
+            background-color: red;
+            margin:25px;
+            margin-left: 30%;
+        
+        
+        
+          }
+
+          .hp-victus {
+           display: flex;
+         
+           justify-content: center;
+           align-items: center; 
+          }
+          .zdj-hp-vistus {
+            background:url(zdj-oferta.png) ;
+            height: 550px;
+            min-width: 550px;
+            margin-right: 100px;
+            margin-top: 100px;
+          }
+
+          .specyfikacja-opis {
+            height: 100%;
+            width: 100%;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+            
+
+          }
+
+          .specyfikacja-opis p {
+            padding: 25px;
+
+          }
+
+
+          .opis-hp {
+            width: 100%;
+            height: 70%;
+          }
+
+          .addcart {
+            width: 100%;
+            height: 25%;
+           display: flex;
+           align-items: center;
+           text-align: center;
+           justify-content: center;
+          }
+          .addcart-dodaj {
+            background-color: red;
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border-radius: 20px;
+          }
+          .opis-hp-victus h1 {
+            text-align: center;
+          }
+          .opis-hp-victus p{
+            margin-left: 50px;
+            margin-top: 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+          }
+          .opis-hp-victus {
+            background-color:grey ;
+            height: 550px;
+            min-width: 50%;
+            margin-left: 100px;
+            margin-top: 100px;
+          }
+          .specyfikacja {
+            border-top: solid black 1px;
+            margin-top:10%;
+            height: 500px;
+            margin-left: 10%;
+            margin-right: 10%;
+          }
+          .spec-left{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 50%;
+            height: 50px;
+          }
+          .spec-right{
+            height: 50px;
+            display: flex;
+           
+          text-align: left;
+            align-items: center;
+width: 50%;
+          }
+          a {
+            text-decoration: none;
+          }
+           
+          .przyklad {
+            display: flex;
+            align-items: center;
+            height: 50px;
+            background-color: grey;
+          }
+          .przyklad1{
+            display: flex;
+            height: 50px;
+          }
+          .sprawdz {
+            height: 35px;
+            width: 50%;
+            background-color: red;
+           border-radius: 15px;
+          
+           color:white;
+           font-size: 12px;
+           font-family: Suez One;
+           display: flex;
+           justify-content: center;
+           text-align: center;
+           align-items: center;
+          
+          }
+
+          .nowosc {
+            margin-top: 50px;
+            background: orange;
+            height: 100px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            font-size: 50px;
+            align-items: center;
+            font-family: Suez One;
+            color: white;
+          }
+          
+          
+          
